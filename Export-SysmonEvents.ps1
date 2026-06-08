@@ -95,15 +95,86 @@ function Parse-SysmonEventData {
         }
     }
 
+    $eid = [int]$Event.Id
+    $severity = "Low"
+    $mitre = "N/A"
+    $owasp = "N/A"
+    $ruleDesc = $eventData["RuleName"]
+
+    if (-not $ruleDesc) { $ruleDesc = "-" }
+
+    # Enriquecimiento y Detección MITRE / OWASP
+    if ($eid -eq 1) {
+        $cmd = [string]$eventData["CommandLine"]
+        $img = [string]$eventData["Image"]
+        
+        if ($cmd -match "(?i)-enc|-encodedcommand") {
+            $severity = "High"
+            $mitre = "T1059.001 / T1027"
+            $owasp = "A03:2021-Injection"
+            $ruleDesc = "PowerShell Encoded Command"
+        } elseif ($cmd -match "(?i)-w hidden|-windowstyle hidden") {
+            $severity = "Medium"
+            $mitre = "T1059.001 / T1564"
+            $owasp = "A04:2021-Insecure Design"
+            $ruleDesc = "PowerShell Hidden Window"
+        } elseif ($cmd -match "(?i)invoke-expression|iex |downloadstring|downloadfile") {
+            $severity = "High"
+            $mitre = "T1059.001 / T1105"
+            $owasp = "A08:2021-Software and Data Integrity Failures"
+            $ruleDesc = "PowerShell Download/Execute Payload"
+        } elseif ($img -match "(?i)powershell" -and $eventData["CurrentDirectory"] -match "(?i)\\temp|\\appdata|\\public") {
+            $severity = "High"
+            $mitre = "T1059.001 / T1036"
+            $owasp = "A01:2021-Broken Access Control"
+            $ruleDesc = "PowerShell execution from suspicious path"
+        } elseif ($cmd -match "(?i)wevtutil cl|clear-eventlog") {
+            $severity = "High"
+            $mitre = "T1070.001"
+            $owasp = "A09:2021-Security Logging and Monitoring Failures"
+            $ruleDesc = "Event Log Clearing (Defense Evasion)"
+        }
+    } elseif ($eid -eq 3) {
+        $dport = $eventData["DestinationPort"]
+        $dip = $eventData["DestinationIp"]
+        if ($dport -eq '3389' -and $dip -notmatch "^(10\.|192\.168\.|172\.(1[6-9]|2[0-9]|3[0-1])\.|127\.)") {
+            $severity = "High"
+            $mitre = "T1021.001 / T1570"
+            $owasp = "A01:2021-Broken Access Control"
+            $ruleDesc = "Outbound RDP to Public IP"
+        }
+    } elseif ($eid -in 12,13,14) {
+        $target = [string]$eventData["TargetObject"]
+        if ($target -match "(?i)\\currentversion\\run|\\currentversion\\runonce") {
+            $severity = "High"
+            $mitre = "T1547.001"
+            $owasp = "A08:2021-Software and Data Integrity Failures"
+            $ruleDesc = "Persistence via Run/RunOnce Registry Keys"
+        } elseif ($target -match "(?i)\\services\\" -and $target -match "(?i)imagepath|start") {
+            $severity = "High"
+            $mitre = "T1543.003"
+            $owasp = "A08:2021-Software and Data Integrity Failures"
+            $ruleDesc = "Windows Service Creation/Modification"
+        } elseif ($target -match "(?i)image file execution options") {
+            $severity = "Critical"
+            $mitre = "T1546.012"
+            $owasp = "A08:2021-Software and Data Integrity Failures"
+            $ruleDesc = "Image File Execution Options (IFEO) Injection"
+        }
+    }
+
     # Construir objeto plano unificado
     $obj = [ordered]@{
-        EventID          = [int]$Event.Id
+        EventID          = $eid
         TimeCreated      = $Event.TimeCreated.ToString("o")  # ISO 8601
         Computer         = $Event.MachineName
         Channel          = $Event.LogName
         RecordId         = [int]$Event.RecordId
         ProviderName     = $Event.ProviderName
-        RuleName         = $eventData["RuleName"]
+        Severity         = $severity
+        MitreAttack      = $mitre
+        OwaspMapping     = $owasp
+        RuleName         = $ruleDesc
         UtcTime          = $eventData["UtcTime"]
         ProcessGuid      = $eventData["ProcessGuid"]
         ProcessId        = $eventData["ProcessId"]
@@ -138,7 +209,7 @@ function Parse-SysmonEventData {
     # Eliminar campos nulos para JSON mas limpio
     $clean = [ordered]@{}
     foreach ($key in $obj.Keys) {
-        if ($null -ne $obj[$key]) {
+        if ($null -ne $obj[$key] -and $obj[$key] -ne "") {
             $clean[$key] = $obj[$key]
         }
     }

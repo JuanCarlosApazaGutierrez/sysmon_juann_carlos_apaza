@@ -1,0 +1,48 @@
+# Entornos de desarrollo / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias y Builds (Frontend - Next.js)
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Entorno Python (Backend - Flask)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+pip-log.txt
+
+# Variables de Entorno (Ambos)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Bases de Datos (Backend)
+*.db
+*.sqlite
+*.sqlite3
+sysmon_data.db
+tarea-parte2/backend/sysmon_data.db
+
+# Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Excluir JSONs pesados autogenerados (Opcional: Descomentar si no quieres subirlos)
+# *.json
+# !sample-events.json
+# sysmon_enriquecido*.json

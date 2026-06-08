@@ -1,0 +1,454 @@
+[
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:58:37.4061259Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:58:37.405",
+    "ProcessGuid": "{f9ed62ee-6e0e-6a1f-f504-000000009700}",
+    "ProcessId": "21264",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:58:15.2220883Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:58:15.222",
+    "ProcessGuid": "{f9ed62ee-6e0f-6a1f-f704-000000009700}",
+    "ProcessId": "14916",
+    "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2604.5.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:58:15.0688728Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:58:15.068",
+    "ProcessGuid": "{f9ed62ee-6e0f-6a1f-f604-000000009700}",
+    "ProcessId": "21576",
+    "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2604.5.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:58:15.0525486Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:58:15.051",
+    "ProcessGuid": "{f9ed62ee-6df7-6a1f-f204-000000009700}",
+    "ProcessId": "17788",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:58:00.9626651Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:58:00.961",
+    "ProcessGuid": "{f9ed62ee-6e00-6a1f-f404-000000009700}",
+    "ProcessId": "3524",
+    "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2604.5.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:58:00.7797371Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:58:00.778",
+    "ProcessGuid": "{f9ed62ee-6e00-6a1f-f304-000000009700}",
+    "ProcessId": "18108",
+    "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2604.5.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:57:54.3197737Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:57:54.318",
+    "ProcessGuid": "{f9ed62ee-6dcf-6a1f-eb04-000000009700}",
+    "ProcessId": "6672",
+    "Image": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:57:54.2867775Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:57:54.286",
+    "ProcessGuid": "{f9ed62ee-6dcf-6a1f-ec04-000000009700}",
+    "ProcessId": "19396",
+    "Image": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:57:53.0705779Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:57:53.069",
+    "ProcessGuid": "{f9ed62ee-6de1-6a1f-f104-000000009700}",
+    "ProcessId": "8760",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:57:36.0015356Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:57:36.000",
+    "ProcessGuid": "{f9ed62ee-6b97-6a1f-5204-000000009700}",
+    "ProcessId": "15020",
+    "Image": "<unknown process>",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:57:30.7312916Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:57:30.730",
+    "ProcessGuid": "{f9ed62ee-6dcb-6a1f-ea04-000000009700}",
+    "ProcessId": "10660",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:57:08.2959563Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:57:08.295",
+    "ProcessGuid": "{f9ed62ee-6db5-6a1f-e504-000000009700}",
+    "ProcessId": "19984",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:56:57.5473425Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:56:57.546",
+    "ProcessGuid": "{f9ed62ee-6d7d-6a1f-de04-000000009700}",
+    "ProcessId": "8244",
+    "Image": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:56:57.5473135Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:56:57.546",
+    "ProcessGuid": "{f9ed62ee-6d7d-6a1f-df04-000000009700}",
+    "ProcessId": "22944",
+    "Image": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:56:50.5308430Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:56:50.530",
+    "ProcessGuid": "{f9ed62ee-6dbe-6a1f-e704-000000009700}",
+    "ProcessId": "19488",
+    "Image": "C:\\Windows\\System32\\ctfmon.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "1",
+    "TimeCreated": "2026-06-02T23:56:47.5877115Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:56:47.575",
+    "ProcessGuid": "{f9ed62ee-6dbf-6a1f-e804-000000009700}",
+    "ProcessId": "10912",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "FileVersion": "10.0.26100.8115 (WinBuild.160101.0800)",
+    "Description": "Windows Command Processor",
+    "Product": "Microsoft® Windows® Operating System",
+    "Company": "Microsoft Corporation",
+    "OriginalFileName": "Cmd.Exe",
+    "CommandLine": "\"C:\\WINDOWS\\system32\\cmd.exe\" ",
+    "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+    "User": "DESKTOP-KCP6DQD\\nueva",
+    "LogonGuid": "{f9ed62ee-6528-6a1f-6dce-1f0000000000}",
+    "LogonId": "0x1fce6d",
+    "TerminalSessionId": "1",
+    "IntegrityLevel": "High",
+    "Hashes": "SHA256=14CC8AB1DCF0D9F19E8FB82DEB547CF8C462C56A0E43F7ADDC02641AB3C81651",
+    "ParentProcessGuid": "{f9ed62ee-6529-6a1f-9801-000000009700}",
+    "ParentProcessId": "3240",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "ParentCommandLine": "C:\\WINDOWS\\Explorer.EXE",
+    "ParentUser": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:56:47.5540658Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:56:47.553",
+    "ProcessGuid": "{f9ed62ee-6dbe-6a1f-e604-000000009700}",
+    "ProcessId": "16792",
+    "Image": "C:\\Windows\\System32\\consent.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:56:46.1370769Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:56:46.136",
+    "ProcessGuid": "{f9ed62ee-6d9e-6a1f-e204-000000009700}",
+    "ProcessId": "23000",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:56:24.2206784Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:56:24.219",
+    "ProcessGuid": "{f9ed62ee-6d88-6a1f-e004-000000009700}",
+    "ProcessId": "5192",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:56:01.6902031Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:56:01.688",
+    "ProcessGuid": "{f9ed62ee-6d71-6a1f-db04-000000009700}",
+    "ProcessId": "16732",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:55:38.7176034Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:55:38.716",
+    "ProcessGuid": "{f9ed62ee-6d5b-6a1f-d404-000000009700}",
+    "ProcessId": "21480",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:55:35.5857438Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:55:35.584",
+    "ProcessGuid": "{f9ed62ee-6bef-6a1f-8904-000000009700}",
+    "ProcessId": "21512",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:55:34.2193839Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:55:34.218",
+    "ProcessGuid": "{f9ed62ee-6d75-6a1f-dc04-000000009700}",
+    "ProcessId": "2288",
+    "Image": "C:\\Windows\\py.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:55:34.1981504Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:55:34.197",
+    "ProcessGuid": "{f9ed62ee-6d76-6a1f-dd04-000000009700}",
+    "ProcessId": "16964",
+    "Image": "C:\\Users\\nueva\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:55:29.1844665Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:55:29.183",
+    "ProcessGuid": "{f9ed62ee-6d69-6a1f-da04-000000009700}",
+    "ProcessId": "20868",
+    "Image": "C:\\Program Files\\Microsoft OneDrive\\26.084.0504.0007\\FileCoAuth.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:55:16.4909271Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:55:16.490",
+    "ProcessGuid": "{f9ed62ee-6d45-6a1f-d204-000000009700}",
+    "ProcessId": "21264",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:55:16.2270325Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:55:16.226",
+    "ProcessGuid": "{f9ed62ee-6d40-6a1f-d004-000000009700}",
+    "ProcessId": "19496",
+    "Image": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:55:10.2905740Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:55:10.289",
+    "ProcessGuid": "{f9ed62ee-6d40-6a1f-d104-000000009700}",
+    "ProcessId": "21152",
+    "Image": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:54:54.1212994Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:54:54.120",
+    "ProcessGuid": "{f9ed62ee-6d2e-6a1f-cd04-000000009700}",
+    "ProcessId": "7988",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:54:31.9622547Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:54:31.961",
+    "ProcessGuid": "{f9ed62ee-6d18-6a1f-cb04-000000009700}",
+    "ProcessId": "18156",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:54:09.7071544Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:54:09.706",
+    "ProcessGuid": "{f9ed62ee-6d02-6a1f-c804-000000009700}",
+    "ProcessId": "9516",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:53:47.5205300Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:53:47.519",
+    "ProcessGuid": "{f9ed62ee-6cec-6a1f-c704-000000009700}",
+    "ProcessId": "20156",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:53:25.3587832Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:53:25.358",
+    "ProcessGuid": "{f9ed62ee-6cd6-6a1f-c404-000000009700}",
+    "ProcessId": "16796",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:53:06.1763872Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:53:06.175",
+    "ProcessGuid": "{f9ed62ee-6ce0-6a1f-c604-000000009700}",
+    "ProcessId": "23540",
+    "Image": "C:\\Program Files (x86)\\BraveSoftware\\Update\\BraveUpdate.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:53:03.1531241Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:53:03.152",
+    "ProcessGuid": "{f9ed62ee-6a26-6a1f-e503-000000009700}",
+    "ProcessId": "18256",
+    "Image": "<unknown process>",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:53:03.0161909Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:53:03.015",
+    "ProcessGuid": "{f9ed62ee-6cb7-6a1f-bc04-000000009700}",
+    "ProcessId": "7624",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:52:50.0237792Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:52:50.023",
+    "ProcessGuid": "{f9ed62ee-6cd1-6a1f-c204-000000009700}",
+    "ProcessId": "5968",
+    "Image": "C:\\Windows\\System32\\consent.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:52:49.7731062Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:52:49.772",
+    "ProcessGuid": "{f9ed62ee-6cd1-6a1f-c104-000000009700}",
+    "ProcessId": "19240",
+    "Image": "C:\\Windows\\System32\\mmc.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:52:45.9199685Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:52:45.919",
+    "ProcessGuid": "{f9ed62ee-6cad-6a1f-b804-000000009700}",
+    "ProcessId": "21924",
+    "Image": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:52:43.4535053Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:52:43.452",
+    "ProcessGuid": "{f9ed62ee-6cad-6a1f-ba04-000000009700}",
+    "ProcessId": "23520",
+    "Image": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:52:32.3537602Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:52:32.352",
+    "ProcessGuid": "{f9ed62ee-6ca1-6a1f-ae04-000000009700}",
+    "ProcessId": "13632",
+    "Image": "C:\\Program Files (x86)\\Intel\\Intel(R) Extreme Tuning Utility\\XtuService.exe",
+    "User": "NT AUTHORITY\\SYSTEM"
+  },
+  {
+    "EventID": "5",
+    "TimeCreated": "2026-06-02T23:52:12.1574833Z",
+    "RuleName": "-",
+    "UtcTime": "2026-06-02 23:52:12.155",
+    "ProcessGuid": "{f9ed62ee-6ca6-6a1f-af04-000000009700}",
+    "ProcessId": "22580",
+    "Image": "<unknown process>",
+    "User": "DESKTOP-KCP6DQD\\nueva"
+  },
+  {
+    "EventID": "4",
+    "TimeCreated": "2026-06-02T23:52:11.2016940Z",
+    "UtcTime": "2026-06-02 23:52:11.201",
+    "State": "Started",
+    "Version": "15.20",
+    "SchemaVersion": "4.91"
+  },
+  {
+    "EventID": "16",
+    "TimeCreated": "2026-06-02T23:52:11.0247242Z",
+    "UtcTime": "2026-06-02 23:52:11.024",
+    "Configuration": "C:\\Sysmon\\umsa.xml",
+    "ConfigurationFileHash": "SHA256=4E3A745F3A3446A94357CA0CA9BF808D36E722B33766D1270C937E06D8864682"
+  }
+]
