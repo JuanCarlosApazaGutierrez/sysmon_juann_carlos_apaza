@@ -1,0 +1,5 @@
+﻿06/07/2026 20:07:58 - Iniciando rafaga de PowerShell para activar regla heuristica PS-010
+06/07/2026 20:07:58 - Instancia 1 lanzada
+06/07/2026 20:07:59 - Instancia 2 lanzada
+06/07/2026 20:08:00 - Instancia 3 lanzada
+06/07/2026 20:08:01 - Instancia 4 lanzada

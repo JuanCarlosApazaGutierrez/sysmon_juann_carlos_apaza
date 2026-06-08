@@ -1,0 +1,47 @@
+<Sysmon schemaversion="4.83">
+  <!-- Módulo IV - UMSA: Configuración Minimalista de Telemetría Forense -->
+  <HashAlgorithms>md5,sha256</HashAlgorithms>
+  <EventFiltering>
+
+    <!-- 1. CREACIÓN DE PROCESOS (EventID 1) -->
+    <RuleGroup name="Deteccion_Procesos_Alertas" groupRelation="or">
+      <ProcessCreate onmatch="include">
+        <!-- Forzar el registro de los intérpretes de comandos y herramientas bajo estudio -->
+        <Image condition="end with">powershell.exe</Image>
+        <Image condition="end with">cmd.exe</Image>
+        <Image condition="end with">mstsc.exe</Image>
+        <Image condition="end with">schtasks.exe</Image>
+        <Image condition="end with">reg.exe</Image>
+      </ProcessCreate>
+    </RuleGroup>
+
+    <!-- 2. CONEXIONES DE RED (EventID 3) -->
+    <RuleGroup name="Deteccion_Movimiento_Lateral" groupRelation="or">
+      <NetworkConnect onmatch="include">
+        <!-- Monitorear conexiones entrantes o salientes del puerto estándar RDP -->
+        <DestinationPort condition="is">3389</DestinationPort>
+        <SourcePort condition="is">3389</SourcePort>
+      </NetworkConnect>
+    </RuleGroup>
+
+    <!-- 3. TERMINACIÓN DE PROCESOS (EventID 5) -->
+    <RuleGroup name="Deteccion_Cierre_Procesos" groupRelation="or">
+      <ProcessTerminate onmatch="include">
+        <Image condition="end with">powershell.exe</Image>
+        <Image condition="end with">cmd.exe</Image>
+        <Image condition="end with">mstsc.exe</Image>
+      </ProcessTerminate>
+    </RuleGroup>
+
+    <!-- 4. MODIFICACIONES DEL REGISTRO (EventID 12 y 13) -->
+    <RuleGroup name="Deteccion_Persistencia_Registro" groupRelation="or">
+      <RegistryEvent onmatch="include">
+        <!-- Capturar inyecciones en llaves Run de persistencia (Usuario y Máquina) -->
+        <TargetObject condition="contains">CurrentVersion\Run</TargetObject>
+        <!-- Capturar creación/modificación de Servicios del Sistema -->
+        <TargetObject condition="contains">System\CurrentControlSet\Services</TargetObject>
+      </RegistryEvent>
+    </RuleGroup>
+
+  </EventFiltering>
+</Sysmon>

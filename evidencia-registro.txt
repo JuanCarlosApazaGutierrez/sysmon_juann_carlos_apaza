@@ -1,0 +1,2 @@
+﻿06/07/2026 20:06:00 - CREADA clave: UMSA_TestPersistence = C:\Windows\System32\notepad.exe
+06/07/2026 20:06:03 - ELIMINADA clave: UMSA_TestPersistence (limpieza completada)
